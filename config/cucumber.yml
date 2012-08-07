@@ -1,0 +1,3 @@
+# CUCUMBER PROFILES
+# Default
+default: BROWSERNAME=chrome SCREENWIDTH=1280 SCREENHEIGHT=1024 XPOSITION=0 YPOSITION=0 --format pretty --format html --out=report/features_report.html
