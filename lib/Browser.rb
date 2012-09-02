@@ -1,6 +1,3 @@
-# Require Module Helpers
-Dir.glob(File.dirname(__FILE__) + '/modules/*.rb') {|file| require file}
-
 # @author Jonathan Chrisp
 class Browser
 
