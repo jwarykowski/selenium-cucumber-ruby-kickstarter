@@ -1,3 +1,5 @@
+<a href="https://codeclimate.com/github/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter"><img src="https://codeclimate.com/github/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png" /></a>
+
 Selenium-Cucumber-Ruby-Kickstarter
 ================================
 
