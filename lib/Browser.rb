@@ -40,7 +40,7 @@ class Browser
     xPosition ? xPosition : xPosition = 0
     yPosition ? yPosition : yPosition = 0
 
-    @log.info('Moving the browser to: ' + xPosition + ', ' + yPosition)
+    @log.info('Moving the browser to: ' + xPosition.to_s + ', ' + yPosition.to_s)
     @driver.manage.window.move_to(xPosition, yPosition)
   end
 
@@ -89,7 +89,7 @@ class Browser
     screenWidth   ? screenWidth   : screenWidth   = 1280
     screenHeight  ? screenHeight  : screenHeight  = 1024
 
-    @log.info('Setting the screen window size to: ' + screenWidth + 'x' + screenHeight)
+    @log.info('Setting the screen window size to: ' + screenWidth.to_s + 'x' + screenHeight.to_s)
     # @note this is currently supported in Chrome and FF
     @driver.manage.window.resize_to(screenWidth, screenHeight)
   end
