@@ -26,8 +26,9 @@ class Element
 
 	# Highlights the element
 	def highlightElement
-		@driver.execute_script("arguments[0].setAttribute('style', arguments[1]);", @element, "border: 1px solid red;");
-  	end
+		old_style = @element.attribute('style')
+		@driver.execute_script("arguments[0].setAttribute('style', arguments[1]);", @element, old_style + " outline: 1px dashed red;");
+  end
 
 	# Asserts the text passed against element text
 	def assertText(text)
