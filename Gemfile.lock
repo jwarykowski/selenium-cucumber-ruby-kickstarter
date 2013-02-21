@@ -19,7 +19,7 @@ GEM
     rake (10.0.3)
     require_all (1.2.1)
     rubyzip (0.9.9)
-    selenium-webdriver (2.29.0)
+    selenium-webdriver (2.30.0)
       childprocess (>= 0.2.5)
       multi_json (~> 1.0)
       rubyzip
