@@ -1,5 +1,6 @@
 source "http://rubygems.org"
 gem "bundler"
+gem "brake"
 gem "yard"
 gem "rake"
 gem "cucumber"
