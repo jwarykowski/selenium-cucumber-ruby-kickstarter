@@ -14,7 +14,7 @@ require "require_all"
 require_all 'lib'
 
 # Setup Browser
-browser = Browser.new(ENV['BROWSERNAME'], ENV['XPOSITION'], ENV['YPOSITION'], ENV['SCREENWIDTH'], ENV['SCREENHEIGHT'])
+browser = Browser.new(ENV['CONTROLLER'], ENV['XPOSITION'], ENV['YPOSITION'], ENV['SCREENWIDTH'], ENV['SCREENHEIGHT'])
 browser.setWindowSize(browser.screenWidth, browser.screenHeight)
 browser.moveBrowser(browser.xPosition, browser.yPosition)
 browser.deleteCookies
