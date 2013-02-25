@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png)](https://travis-ci.org/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png)
+[![Build Status](https://travis-ci.org/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png?branch=master)](https://travis-ci.org/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter)
 
 <a href='https://gemnasium.com/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter'><img src="https://gemnasium.com/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png" alt="Dependency Status" /></a> <a href="https://codeclimate.com/github/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter"><img src="https://codeclimate.com/github/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png" /></a>
 
@@ -16,8 +16,8 @@ To get up and running:
 1) Ensure you have the chrome browser and chromedriver setup
 2) Ensure you have ruby installed (built and run with 1.9.2) - use rvm
 3) Ensure you have rubygems and the bundler installed
-4) Navigate to project
-5) Run bundle install
-6) Run rake
+4) Navigate to project in terminal
+5) Run 'bundle install'
+6) Run 'brake kickstarter'
 
 Enjoy that test run....
