@@ -13,11 +13,11 @@ This is a very quick example to demo Ruby, Cucumber and Selenium Webdriver.Pleas
 
 To get up and running:
 
-1) Ensure you have the chrome browser and chromedriver setup
-2) Ensure you have ruby installed (built and run with 1.9.2) - use rvm
-3) Ensure you have rubygems and the bundler installed
-4) Navigate to project in terminal
-5) Run 'bundle install'
-6) Run 'brake kickstarter'
+1) Ensure you have the chrome browser and chromedriver setup  
+2) Ensure you have ruby installed (built and run with 1.9.2) - use rvm  
+3) Ensure you have rubygems and the bundler installed  
+4) Navigate to project in terminal  
+5) Run 'bundle install'  
+6) Run 'brake kickstarter'  
 
-Enjoy that test run....
+Enjoy that test run....  
