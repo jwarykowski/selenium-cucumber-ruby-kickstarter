@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png?branch=master)](https://travis-ci.org/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter)
 <a href='https://gemnasium.com/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter'><img src="https://gemnasium.com/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png" alt="Dependency Status" /></a> <a href="https://codeclimate.com/github/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter"><img src="https://codeclimate.com/github/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png" /></a>
 
-#Selenium-Cucumber-Ruby-Kickstarter
+#selenium-cucumber-ruby-kickstarter
 
 ##Background
 
