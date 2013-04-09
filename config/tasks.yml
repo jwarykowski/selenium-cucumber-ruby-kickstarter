@@ -1,0 +1,5 @@
+kickstarter: 
+ feature_order: ['features/GoogleSearch.feature']
+ runtime_defaults:
+  controller: 'firefox'
+ defaults: ['--format pretty', '-P -s']

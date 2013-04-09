@@ -1,21 +1,31 @@
 [![Build Status](https://travis-ci.org/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png?branch=master)](https://travis-ci.org/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter)
-
 <a href='https://gemnasium.com/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter'><img src="https://gemnasium.com/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png" alt="Dependency Status" /></a> <a href="https://codeclimate.com/github/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter"><img src="https://codeclimate.com/github/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png" /></a>
 
-# Selenium-Cucumber-Ruby-Kickstarter
+#Selenium-Cucumber-Ruby-Kickstarter
 
-## Background
+##Background
 
 A quick example of how to bring Selenium, Cucumber and Ruby together to automate a Google Search
 Each test run creates a log file and any failure will produce a screenshot, please see the relevant logs and screenshots folder following each run.
-This is a very quick example to demo Ruby, Cucumber and Selenium Webdriver.Please email me with any thoughts or questions.
+This is a very quick example to demo Ruby, Cucumber and Selenium Webdriver.
 
-### Get up and running
+### Getting Started
 1) Ensure you have the chrome browser and chromedriver setup  
 2) Ensure you have ruby installed (built and run with 1.9.2) - use rvm  
 3) Ensure you have rubygems and the bundler installed  
 4) Navigate to project in terminal  
 5) Run 'bundle install'  
-6) Run 'brake kickstarter'  
+6) Run 'cukesparse kickstarter'
 
-Enjoy that test run....  
+Enjoy that test run....
+
+Please note that this will run the feature in the firefox browser as default. To run this test in chrome just pass the argument
+`-c chrome`  e.g. `cukesparse kickstarter -c chrome`   
+
+## Cukesparse Gem
+
+The Selenium-Cucumber-Ruby-Kickstarter project uses the cukesparse gem which I created to easily pass default and custom arguments to Cucumber.
+To find out more about this gem, please visit: https://github.com/jonathanchrisp/cukesparse
+
+## Feedback
+I would be more than happy to recieve feedback, please email me at: jonathan.chrisp@gmail.com.
