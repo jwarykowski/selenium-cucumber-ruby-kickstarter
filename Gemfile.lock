@@ -15,7 +15,7 @@ GEM
       clik (~> 0.1.0)
       colored (~> 1.2)
       cucumber (~> 1.2.5)
-    diff-lcs (1.2.3)
+    diff-lcs (1.2.4)
     ffi (1.7.0)
     gherkin (2.11.8)
       multi_json (~> 1.3)
