@@ -1,34 +1,32 @@
 # @author Jonathan Chrisp
 class GoogleResultsPage
-
-	# Include Module Helpers
   include DateHelper
   include DirectoryHelper
-  
- 	attr_reader :name, :driver, :log
+
+  attr_reader :name, :driver, :log
 
   # Initialises GoogleSearchPage Class
   #
   # @param [String] name defines the name of the instance
   # @param [Object] driver defines the driver instance
   # @param [Object] log defines the log instance
- 	def initialize(name, driver, log)
- 		@name 	= name
- 		@driver = driver
- 		@log		= log
+  def initialize(name, driver, log)
+    @name 	= name
+    @driver = driver
+    @log		= log
 
- 		@searchResultsContainer = Element.new('searchResultsContainer', :css, 'div[id="search"]', @driver, @log)
- 	end
+    @search_results_container = Element.new('search_results_container', :css, 'div[id="search"]', @driver, @log)
+  end
 
- 	# Verifies Elements for page
- 	def verifySelf
- 		self.verifyGoogleSearchInput
- 	end
+  # Verifies Elements for page
+  def verify_self
+    self.verify_google_search_input
+  end
 
- 	# Verifies Google Search Results container
- 	def verifyGoogleSearchInput
- 		@searchResultsContainer.findElement
- 		@searchResultsContainer.verifyElement
- 	end
+  # Verifies Google Search Results container
+  def verify_google_search_input
+    @search_results_container.find_element
+    @search_results_container.verify_element
+  end
 
 end

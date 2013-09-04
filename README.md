@@ -7,21 +7,21 @@
 ##Background
 
 A quick example of how to bring Selenium, Cucumber and Ruby together to automate a Google Search.
-Each test run creates a log file and any failure will produce a screenshot, please see the relevant logs and screenshots folder following each run.
+Each test run creates a log file, please see the relevant logs folder following each run.
 This is a very quick example to demo Ruby, Cucumber and Selenium Webdriver.
 
 ### Getting Started
-1) Ensure you have the chrome browser and chromedriver setup  
-2) Ensure you have ruby installed (built and run with 1.9.2) - use rvm  
-3) Ensure you have rubygems and the bundler installed  
-4) Navigate to project in terminal  
-5) Run 'bundle install'  
+1) Ensure you have the chrome browser and chromedriver setup
+2) Ensure you have ruby installed (built and run with 1.9.2) - use rvm
+3) Ensure you have rubygems and the bundler installed
+4) Navigate to project in terminal
+5) Run 'bundle install'
 6) Run 'cukesparse kickstarter'
 
 Enjoy that test run....
 
 Please note that this will run the feature in the firefox browser as default. To run this test in chrome just pass the argument
-`-c chrome`  e.g. `cukesparse kickstarter -c chrome`   
+`-c chrome`  e.g. `cukesparse kickstarter -c chrome`
 
 ## Cukesparse Gem
 

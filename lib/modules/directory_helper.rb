@@ -1,40 +1,21 @@
 # @author Jonathan Chrisp
 module DirectoryHelper
-  
-  # Create directory for screenshots
-  def DirectoryHelper.createScreenshotDirectory
-    begin
-      # Set Time for directory name
-      directoryName  = "#{Dir::pwd}/screenshots/#{DateHelper.setDirectoryDateStamp}/"
-
-      # Check if directory already exists
-      if FileTest::directory?(directoryName)
-        # directory exists so ignore
-      else
-        Dir::mkdir(directoryName)
-      end
-    end
-
-    # Return Dirctory
-    return directoryName
-  end
 
   # Create directory for log files
-  def DirectoryHelper.createLogDirectory
+  def DirectoryHelper.create_log_directory
     begin
       # Set Time for directory name
-      directoryName  = "#{Dir::pwd}/logs/#{DateHelper.setDirectoryDateStamp}/"
+      directory_name  = "#{Dir::pwd}/logs/#{DateHelper.set_directory_datestamp}/"
 
       # Check if directory already exists
-      if FileTest::directory?(directoryName)
+      if FileTest::directory?(directory_name)
         # directory exists so ignore
       else
-        Dir::mkdir(directoryName)
+        Dir::mkdir(directory_name)
       end
     end
 
-      # Return Dirctory
-      return directoryName
+    return directory_name
     end
 
   end
