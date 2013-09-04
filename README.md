@@ -11,14 +11,12 @@ Each test run creates a log file, please see the relevant logs folder following 
 This is a very quick example to demo Ruby, Cucumber and Selenium Webdriver.
 
 ### Getting Started
-      1. Ensure you have the chrome browser and chromedriver setup
-      2. Ensure you have ruby installed (built and run with 1.9.2) - use rvm
+      1. Ensure you have the firefox or chrome browser installed - install chromedriver if using chrome
+      2. Ensure you have ruby installed (built and run with 2.0.0) - use rvm
       3. Ensure you have rubygems and the bundler installed
-      4. Navigate to project in terminal
+      4. Navigate to the cloned project in your terminal
       5. Run 'bundle install'
       6. Run 'cukesparse kickstarter'
-
-Enjoy that test run....
 
 Please note that this will run the feature in the firefox browser as default. To run this test in chrome just pass the argument
 `-c chrome`  e.g. `cukesparse kickstarter -c chrome`
