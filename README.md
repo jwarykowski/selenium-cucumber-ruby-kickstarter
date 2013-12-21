@@ -1,3 +1,4 @@
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jonathanchrisp/selenium-cucumber-ruby-kickstarter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 [![Build Status](https://travis-ci.org/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png?branch=master)](https://travis-ci.org/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter)
 [![Dependency Status](https://gemnasium.com/jonathanchrisp/selenium-cucumber-ruby-kickstarter.png)](https://gemnasium.com/jonathanchrisp/selenium-cucumber-ruby-kickstarter)
 [![Code Climate](https://codeclimate.com/github/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter.png)](https://codeclimate.com/github/jonathanchrisp/Selenium-Cucumber-Ruby-Kickstarter)
