@@ -1,12 +1,5 @@
-source "http://rubygems.org"
-gem "bundler"
-gem "cukesparse"
-gem "yard"
-gem "rake"
-gem "cucumber"
-gem "selenium-webdriver"
-gem "nokogiri"
-gem "xml-simple"
-gem "ffi"
-gem "require_all"
-gem "pry"
+source 'http://rubygems.org'
+
+gem 'cucumber'
+gem 'selenium-webdriver'
+gem 'require_all'
