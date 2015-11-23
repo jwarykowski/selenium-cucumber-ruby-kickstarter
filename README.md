@@ -7,9 +7,6 @@
 ##Background
 
 A quick example of how to bring Selenium, Cucumber and Ruby together to automate a Google Search.
-Each test run creates a log file, please see the relevant logs folder following each run.
-
-This is a very quick example to demo Ruby, Cucumber and Selenium Webdriver.
 
 ### Getting Started
       1. Ensure you have the firefox or chrome browser installed - install chromedriver if using chrome
