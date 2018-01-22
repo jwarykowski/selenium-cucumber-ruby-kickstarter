@@ -1,13 +1,19 @@
-before_install:
- - "bundle install"
- - "export DISPLAY=:99.0"
- - "sh -e /etc/init.d/xvfb start"
-
 language: ruby
-rvm:
- - "2.2.2"
- - "2.1.5"
- - "2.0.0"
- - "1.9.3"
 
-script: cucumber -p firefox
+rvm:
+ - 2.5
+
+before_install:
+  # Workaround for https://github.com/travis-ci/travis-ci/issues/8969
+ - gem update --system
+ - bundle install
+ - sudo apt-get update
+ - sudo apt-get install chromium-chromedriver
+
+before_script:
+  - export PATH=$PATH:/usr/lib/chromium-browser/
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+  - sleep 3 # give xvfb some time to start
+
+script: bundle exec cucumber
